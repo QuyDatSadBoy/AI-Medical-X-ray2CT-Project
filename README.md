@@ -124,22 +124,4 @@ To simpify the dataloading for your own dataset, we provide a default dataset th
 
 All you need to do now is just specify the path to this root directory the way we have dealt with it before. Note that you need to provide the path to the dataset (e.g. ```dataset.root_dir='/../../root_dir/'```) to successfully run the command.
 
-# Acknowledgement
-This code is heavily build on the following repository:
-
-https://github.com/FirasGit/medicaldiffusion
-
-## Citation
-If you use any of our code, please cite our paper:
-
-@misc{cahan2024xray2ctpagenerating3dctpa,
-      title={X-ray2CTPA: Generating 3D CTPA scans from 2D X-ray conditioning}, 
-      author={Noa Cahan and Eyal Klang and Galit Aviram and Yiftach Barash and Eli Konen and Raja Giryes and Hayit Greenspan},
-      year={2024},
-      eprint={2406.16109},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2406.16109}, 
-}
-
 # AI-Medical-X-ray2CT-Project

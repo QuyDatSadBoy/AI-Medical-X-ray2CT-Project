@@ -1,7 +1,3 @@
-# X-ray2CTPA
-
-This repository contains the scripts and models used in the paper *"X-ray2CTPA: Generating 3D CTPA scans from 2D X-ray conditioning"*.
-
 # Introduction
 
 X-ray imaging, commonly used for medical diagnostics, typically offers lower resolution compared to CT scans, which offer more detailed and accurate three-dimensional views, particularly those enhanced with contrast agents like CT Pulmonary Angiography (CTPA). However, CT scans entail higher costs, greater radiation exposure, and are less accessible than X-rays. 
@@ -10,11 +6,12 @@ Furthermore, employing our synthesized 3D images in a classification framework s
 Our suggested model is presented below:
 ![](assets/pipeline.png)
 
+# Web demo
+![](assets/web_interface.png)
 
 # Results
 
 We present both a generated 3D CTPA and CT scans from our CTPA and LIDC datasets respectively. They are presented along with their ground truth corresponding 3D scan and 2D X-ray inputs.
-
 <table>
   <tr>
      <td>

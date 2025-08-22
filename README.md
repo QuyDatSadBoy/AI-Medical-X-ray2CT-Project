@@ -1,17 +1,14 @@
 # X-ray2CTPA
 
-This repository contains the scripts and models used in the paper *"X-ray2CTPA: Generating 3D CTPA scans from 2D X-ray conditioning"*. [manuscript link](https://arxiv.org/abs/2406.16109)
+This repository contains the scripts and models used in the paper *"X-ray2CTPA: Generating 3D CTPA scans from 2D X-ray conditioning"*.
 
 # Introduction
 
 X-ray imaging, commonly used for medical diagnostics, typically offers lower resolution compared to CT scans, which offer more detailed and accurate three-dimensional views, particularly those enhanced with contrast agents like CT Pulmonary Angiography (CTPA). However, CT scans entail higher costs, greater radiation exposure, and are less accessible than X-rays. 
 In this work we explore cross-modal translation from a 2D low resolution X-ray input to a 3D high resolution CTPA scan. Driven by recent advances in generative AI, we introduce a novel diffusion-based approach to this task. We evaluate the model's performance using both quantitative metrics and qualitative feedback from radiologists, ensuring diagnostic relevance of the generated images. 
 Furthermore, employing our synthesized 3D images in a classification framework shows promise in improving diagnostic accuracy. The proposed method is generalizable and capable of performing additional cross-modality translations in medical imaging. It may pave the way for more accessible and cost-effective advanced diagnostic tools.
-The outline and study design used for this research is depicted: 
- ![](assets/outline.png)
-
 Our suggested model is presented below:
-![](assets/model.png)
+![](assets/pipeline.png)
 
 
 # Results
